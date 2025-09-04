@@ -5,7 +5,7 @@ const main = require('../controllers/user')
 
 
 
-router.route('/user/:userid').get(main.getUser)
+router.route('/user/:userid')
 
 
 

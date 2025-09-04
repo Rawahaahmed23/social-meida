@@ -5,7 +5,7 @@ const main = require('../controllers/comment')
 
 
 
-router.route('/user/:userid')
+router.route('/comment/:userid')
 
 
 

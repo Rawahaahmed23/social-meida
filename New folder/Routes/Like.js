@@ -5,7 +5,7 @@ const main = require('../controllers/Like')
 
 
 
-router.route('/user/:userid')
+router.route('/Like/:userid').get()
 
 
 
